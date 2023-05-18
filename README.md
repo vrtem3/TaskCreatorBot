@@ -41,3 +41,4 @@ access_token = get_access_token()
 delete_file(path_file, s3) # Удаляем ранее загруженный аудиофайл из облака
 os.remove(path_file) # Удаляем локальный аудиофайл
 ```
+Удаляем локальный файл и в бакете Yandex Cloud.
